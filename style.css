@@ -1,0 +1,108 @@
+@font-face {
+  font-family: monster;
+  src: url(../fonts/monsterfriendfore.otf);
+}
+
+* {
+  background: black;
+  font-family: monster;
+}
+
+audio {
+  display: none;
+}
+.primeiro {
+  background-image: url(/img/principal.jpg);
+  height: 600px;
+  background-position: right center;
+  background-size: cover;
+  border-top: 1px solid transparent;
+}
+
+.primeiro nav {
+  padding-bottom: 5px;
+  margin-top: -10px;
+}
+
+.primeiro nav ul {
+  text-align: right;
+  margin: 5px 25px 0px 0px;
+  list-style: none;
+}
+
+.primeiro nav li {
+  display: inline-flex;
+  list-style: none;
+  border: 1px solid #790000;
+  margin: 4px;
+  font-size: 10px;
+}
+
+.primeiro nav a {
+  transition: 1s;
+}
+
+.primeiro nav a:hover {
+  background-color: rgb(51, 46, 46);
+}
+
+.primeiro nav a {
+  display: block;
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 2px;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  font-family: monster;
+  font-size: 20px;
+}
+.segundo {
+  padding: 10px;
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.segundo img {
+  width: 150px;
+  box-sizing: border-box;
+  margin: 22px;
+  display: block;
+  transition: 1s;
+}
+
+.segundo div {
+  border: 1px solid rgb(34, 34, 34);
+  transition: 1s;
+}
+
+.segundo div:hover,
+.segundo img:hover {
+  cursor: grab;
+  background-color: rgb(51, 46, 46);
+}
+
+main {
+  width: 80%;
+  margin: auto;
+}
+
+.rodape {
+  height: 80px;
+  display: block;
+  color: white;
+  font-size: 8px;
+  text-align: center;
+  text-shadow: 2px 2px 2px black;
+  padding-top: 25px;
+}
+
+.rodape img {
+  width: 20px;
+}
